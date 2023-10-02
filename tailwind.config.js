@@ -32,12 +32,14 @@ module.exports = {
         
         
       },
+    
       fontFamily: {
         'ibm-plex-sans': ['IBM Plex Sans', 'sans'],
-        'montserrat': ['Montserrat', 'sans'],
-        'ibmplex':['Ibm Plex Sans'],
-        'poppins':['Poppins'],
-        'inter': ['Inter', 'sans'],
+        exquisite: ['ExquisiteFont', 'sans'],
+        montserrat: ['Montserrat', 'sans'],
+        ibmplex:['Ibm Plex Sans'],
+        poppins:['Poppins'],
+        inter: ['Inter', 'sans'],
       },
 
     },

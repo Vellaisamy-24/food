@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Price from "../Price"
 import adai from "../images/adai_dhosa.jpeg"
 import chana from "../images/chana_dhosa.jpeg"
 import cheese from "../images/cheese_dhosa.jpeg"
@@ -15,7 +16,6 @@ import wheat from "../images/wheat_dhosa.jpeg"
 import {Link} from "react-router-dom"
 
 const Dhosai = () => {
-    let cost=15;
     const [variety,setVariety]=useState([
       {
         id:1,
@@ -83,10 +83,17 @@ const Dhosai = () => {
         image:wheat,
         cost:35
       },
+   
 
     ])
+    const handleOrder=(food)=>
+    {
+      setVariety({name:food.name})
+      
+    }
   return (
-    <><div className='fixed bg-red-200 text-center w-screen top-0 left-0 right-0 text-red-500 sm:text-[50px] '>Dhosai</div>
+    <>
+  <div className='fixed bg-red-200 text-center w-screen top-0 left-0 right-0 text-red-500 sm:text-[50px] '>Dhosai</div>
     <div className='bg-backgroundColor w-screen gap-4 mt-[90px] sm:grid grid-cols-2  md:grid-cols-2  lg:grid-cols-3 lg:gap-8  2xl:grid-cols-4   '>
     {
       variety.map((food)=>
@@ -103,7 +110,8 @@ const Dhosai = () => {
         </div>
         </div>
        
-          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px]'> <Link to={`/price/${food.cost}`}>OrderNow</Link></button></div>
+          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button onClick={(e)=>handleOrder(food) }className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px]'> <Link to={`/price/${food.cost}`}>OrderNow</Link></button>
+</div>
 
     </div>
 

@@ -8,7 +8,7 @@ import sabudana from "../images/sabudana_vada.jpeg"
 
 import {Link} from "react-router-dom"
 
-const Idiyappam = () => {
+const Vada = () => {
 
     const [variety,setVariety]=useState([
       {
@@ -73,4 +73,4 @@ const Idiyappam = () => {
   )
 }
 
-export default Idiyappam
+export default Vada

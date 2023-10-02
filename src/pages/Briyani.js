@@ -1,13 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import parota from "../images/parota.jpeg"
-import kizhi from "../images/kizhi_parota.jpeg"
-import kothu from "../images/kothu_parota.jpeg"
-import coin from "../images/coin_parota.jpeg"
-import ceylon from "../images/ceylon_parota.jpeg"
-import bun from "../images/Bun_parota.jpeg"
-import chilli from "../images/chilli_parota.jpeg"
-import poricha from "../images/poricha_parota.jpeg"
 import chicken from "../images/chicken_briyani.jpeg"
 import mutton from "../images/mutton_briyani.jpeg"
 import ambur from "../images/ambur_briyani.jpeg"

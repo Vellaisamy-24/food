@@ -43,7 +43,7 @@ const Parotta = () => {
         id:5,
         name:"Ceylon Parotta",
         image:ceylon,
-        cost:20
+        cost:30
       },
       {
         id:6,
@@ -55,13 +55,13 @@ const Parotta = () => {
         id:7,
         name:"Poricha Parotta",
         image:poricha,
-        cost:20
+        cost:15
       },
       {
         id:8,
         name:"Chilli Parotta",
         image:chilli,
-        cost:20
+        cost:40
       },
 
     ])

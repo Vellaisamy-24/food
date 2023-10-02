@@ -7,7 +7,7 @@ import melagu from "../images/melagu_pongal.jpeg"
 
 import {Link} from "react-router-dom"
 
-const Idiyappam = () => {
+const Pongal = () => {
     let cost=15;
     const [variety,setVariety]=useState([
       {
@@ -72,4 +72,4 @@ const Idiyappam = () => {
   )
 }
 
-export default Idiyappam
+export default Pongal
