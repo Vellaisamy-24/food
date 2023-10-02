@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 const Home = () => {
   return (
     <>
-    <div className=''>
+ 
    <div className='fixed bg-red-200 w-screen top-0 left-0 right-0'>Zomato</div>
     <div className='grid grid-col  h-screen mt-[100px]  w-screen text-[20px]'>
      
@@ -29,7 +29,7 @@ const Home = () => {
         
 
     </div>
-    </div>
+   
     </>
   )
 }
