@@ -7,6 +7,7 @@ import coin from "../images/coin_parota.jpeg"
 import ceylon from "../images/ceylon_parota.jpeg"
 import bun from "../images/Bun_parota.jpeg"
 import chilli from "../images/chilli_parota.jpeg"
+import poricha from "../images/poricha_parota.jpeg"
 
 
 import {Link} from "react-router-dom"
@@ -34,13 +35,13 @@ const Parotta = () => {
       },
       {
         id:4,
-        name:"Bun Parotta",
+        name:"Coin Parotta",
         image:coin,
         cost:20
       },
       {
         id:5,
-        name:"Bun Parotta",
+        name:"Ceylon Parotta",
         image:ceylon,
         cost:20
       },
@@ -52,13 +53,13 @@ const Parotta = () => {
       },
       {
         id:7,
-        name:"Bun Parotta",
-        image:parota,
+        name:"Poricha Parotta",
+        image:poricha,
         cost:20
       },
       {
         id:8,
-        name:"Bun Parotta",
+        name:"Chilli Parotta",
         image:chilli,
         cost:20
       },
