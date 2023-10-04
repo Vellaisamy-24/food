@@ -15,10 +15,10 @@ const Price = () => {
     }
   return (
     <>
-    <div className='w-screen pb-[20px] border border-black rounded-t-[36px] w-screen fixed bottom-0 left-0 right-0 bg-backgroundColor'>
+    <div className='  w-screen pb-[20px] border border-black rounded-t-[36px] w-screen fixed bottom-0 left-0 right-0 bg-backgroundColor'>
       <div className='p-[20px]'>
       
-        <div className='lg:text-center'>  <label className='text-[30px] font-exquisite font-semibold shadow-md '>Enter the no of Items</label>
+        <div className=' sm1:ml-[20px] lg:text-center'>  <label className='text-[30px] font-exquisite font-semibold shadow-md'>Enter the no of Items</label>
    <input className=' w-2/4 h-[50px] ml-[5px] rounded-[10px] border border-black shadow-2xl' placeholder='count...' type="number" onChange={(e)=>setCalculatedPrice(e.target.value)}/>
    </div>
       

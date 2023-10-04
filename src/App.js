@@ -9,15 +9,25 @@ import Idly from './pages/Idly';
 import Pongal from './pages/Pongal';
 import Vadai from './pages/Vadai';
 import Price from './Price';
+import Login from './Login';
+import {useState,createContext} from 'react'
+
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
 
-
+export const LoginContext=createContext(null)
 function App() {
+  const [userName,setUserName]=useState("")
+  const [userMail,setUserMail]=useState("")
+  const [userPassword,setUserPassword]=useState("")
   return (
     <>
+        <LoginContext.Provider value={{userName,setUserName,userMail,setUserMail,userPassword,setUserPassword}}>
     <Router>
       <Routes>
-      <Route path="/" element={<Home />}/>
+    
+        <Route path="/" element={<Login />}/>
+
+      <Route path="/home" element={<Home />}/>
       <Route path="/parotta" element={<Parotta />} />
       <Route path="/dhosai" element={<Dhosai />} />
       <Route path="/briyani" element={<Briyani />} />
@@ -26,9 +36,10 @@ function App() {
       <Route path="/idiyappam" element={<Idiyappam />} />
       <Route path="/pongal" element={<Pongal />} />
       <Route path="/price/:cost" element={<Price />} />
+  
       </Routes>
     </Router>
-    
+    </LoginContext.Provider>
 
     </>
   );

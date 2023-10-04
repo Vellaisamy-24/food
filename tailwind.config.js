@@ -28,6 +28,15 @@ module.exports = {
       colors: {
     
         'backgroundColor':"#fafafa",
+        bgcolor:"#f5f5f5",
+        navcolor:"#3498db",
+        navcolor2:"#3366ff",
+        nav1:"#3498db",
+        textcolor:"#333",
+        text:"#dcdcdc",
+        bg1:" #f5f5f5",
+        bg2:"#333333",
+
        
         
         
