@@ -10,9 +10,11 @@ import Pongal from './pages/Pongal';
 import Vadai from './pages/Vadai';
 import Price from './Price';
 import Login from './Login';
+import Order from './Order';
 import {useState,createContext} from 'react'
 
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
+
 
 export const LoginContext=createContext(null)
 function App() {
@@ -35,7 +37,8 @@ function App() {
       <Route path="/vadai" element={<Vadai />} />
       <Route path="/idiyappam" element={<Idiyappam />} />
       <Route path="/pongal" element={<Pongal />} />
-      <Route path="/price/:cost" element={<Price />} />
+      <Route path="/price/:cost/:name" element={<Price />} />
+      <Route path="/placeOrder/:name/:cost/:quantity/:totalprice" element={<Order />}/>
   
       </Routes>
     </Router>

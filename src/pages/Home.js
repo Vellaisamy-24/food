@@ -21,8 +21,8 @@ const Home = () => {
     <div className='text-black fixed top-0 right-0 '><button  className='text-[40px]' onClick={handleDisplay}>Profile</button></div>
     <div className='grid grid-col text-textcolor h-screen mt-[60px] text-center text-orange-900 sm1:text-[30px]  w-screen text-[20px]'>
      
-    <div>
-      {display && <div className='text-red-700 text-[50px] fixed right-0  ' >{userName}</div>
+    <div >
+      {display &&<div > <div className='text-black text-[20px] fixed right-0 mr-[130px]  ' >User:{userName}</div ><div className='text-black text-[20px] fixed right-0 mt-[40px] '>MailId:{userMail}</div></div>
       }
       </div>
         <div className=' mt-[5px] pb-[5px] text-orange-400 font-semibold font-ibm-plex-sans'><button> <Link to="/parotta">Parotta</Link></button></div>
