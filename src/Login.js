@@ -29,7 +29,7 @@ const Login = () => {
 
   return (
     <>
-      <div className=' bg-blue-400 sm1:text-[20px] sm:text-[30px] 2xl:p-[15px] 2xl:w-[500px] h-auto mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px]'>
+      <div className=' bg-blue-400 sm1:text-[20px] sm:text-[30px] 2xl:p-[15px] 2xl:w-[600px] h-auto mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px]'>
         <h1 className='lg:text-[50px] text-[30px] text-center font-semibold font-ibm-plex-sans'>Login</h1>
         <form onSubmit={handleSubmit} method='post'>
           <div className='my-[15px]'>
@@ -37,27 +37,27 @@ const Login = () => {
               <label className='lg:text-[30px] text-[20px] font-montserrat'>Full Name</label>
             </div>
             <div>
-              <input className='lg:h-[40px]  text-red-800 rounded-[5px] ' name='fullName' type='text' required    placeholder='fullname..'  onChange={handleChange}  />
+              <input className='lg:h-[40px] w-full placeholder-text-sm   text-red-800 rounded-[5px]' name='fullName' type='text' required    placeholder='fullname..'  onChange={handleChange}  />
             </div>
           </div>
           <div className='my-[15px]'>
             <div className='my-[10px]'>
-              <label className='lg:text-[30px]  font-montserrat text-[20px] '>Email</label>
+              <label className='lg:text-[30px]  font-montserrat text-[20px]'>Email</label>
             </div>
             <div>
               <input
-                className='lg:h-[40px] text-red-800 rounded-[5px]  ' type='email'  name='email' required    placeholder='email..'    onChange={handleChange}
+                className='lg:h-[40px] placeholder-text-sm w-full text-red-800 rounded-[5px]' type='email'    name='email' required    placeholder='email..'    onChange={handleChange}
         
               />
             </div>
           </div>
           <div className='my-[15px]'>
             <div className='my-[10px]'>
-              <label className='lg:text-[30px]  font-montserrat text-[20px] '>Password</label>
+              <label className='lg:text-[30px]   font-montserrat text-[20px]'>Password</label>
             </div>
             <div>
               <input
-                className='lg:h-[40px] rounded-[5px] text-red-900  '   type='password'  name='password' required  placeholder='password..' onChange={handleChange}  />
+                className='lg:h-[40px] rounded-[5px] placeholder-text-sm w-full text-red-900'  type='password'  name='password'  required  placeholder='password..' onChange={handleChange}  />
             </div>
           </div>
           <div className='my-[15px] text-center'>

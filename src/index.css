@@ -2,5 +2,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+/* Custom styles.css or global styles */
 
+  /* src/styles/tailwind.css or your custom stylesheet */
+.placeholder-text-sm::placeholder {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
   
