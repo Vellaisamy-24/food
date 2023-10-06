@@ -111,7 +111,7 @@ const Dhosai = () => {
         </div>
         </div>
        
-          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button onClick={(e)=>handleOrder(food) }className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px] transition-transform transform hover:text-white hover:bg-red-500 hover:scale-105 hover:shadow-2xl'> <Link to={`/price/${food.cost}/${food.name}`}>OrderNow</Link></button>
+          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button onClick={(e)=>handleOrder(food) }className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px] transition-transform  hover:text-white hover:bg-red-500 hover:scale-105 hover:shadow-2xl'> <Link to={`/price/${food.cost}/${food.name}`}>OrderNow</Link></button>
 </div>
 
     </div>

@@ -32,7 +32,7 @@ const Order = () => {
       <div className="font-bold md:text-[40px] m-[10px] md:p-[15px] text-orange-400 text-center"> Bill Details</div>
       {orderPlaced ? (
         <div className="text-center border shadow-2xl">
-          <h2 className="text-green-600 text-2xl font-semibold">Order placed successfully!</h2>
+          <h2 className="text-green-600 text-2xl font-semibold sm1:p-[10px] sm:p-[20px]">Order placed successfully!</h2>
           <p>Your order will be delivered soon.</p>
         </div>
       ) : (

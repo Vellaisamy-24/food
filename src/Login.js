@@ -37,7 +37,7 @@ const Login = () => {
               <label className='lg:text-[30px] text-[20px] font-montserrat'>Full Name</label>
             </div>
             <div>
-              <input className='lg:h-[40px]  text-red-800 rounded-[5px]' name='fullName' type='text' required    placeholder='Full Name'  onChange={handleChange}  />
+              <input className='lg:h-[40px]  text-red-800 rounded-[5px]' name='fullName' type='text' required    placeholder='fullname..'  onChange={handleChange}  />
             </div>
           </div>
           <div className='my-[15px]'>
@@ -46,7 +46,7 @@ const Login = () => {
             </div>
             <div>
               <input
-                className='lg:h-[40px] text-red-800 rounded-[5px]' type='email'    name='email'   required      placeholder='Email'    onChange={handleChange}
+                className='lg:h-[40px] text-red-800 rounded-[5px]' type='email'    name='email' required    placeholder='email..'    onChange={handleChange}
         
               />
             </div>
@@ -57,7 +57,7 @@ const Login = () => {
             </div>
             <div>
               <input
-                className='lg:h-[40px] rounded-[5px] text-red-900'  type='password'  name='password'  required    placeholder='Password'   onChange={handleChange}  />
+                className='lg:h-[40px] rounded-[5px] text-red-900'  type='password'  name='password'  required  placeholder='password..' onChange={handleChange}  />
             </div>
           </div>
           <div className='my-[15px] text-center'>

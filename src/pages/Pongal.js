@@ -56,7 +56,7 @@ const Pongal = () => {
         </div>
         </div>
        
-          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px] hover:text-white hover:bg-red-500 transition-transform transform hover:scale-105 hover:shadow-2xl'> <Link to={`/price/${food.cost}/${food.name}`}>OrderNow</Link></button></div>
+          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px] hover:text-white hover:bg-red-500 transition-transform  hover:scale-105 hover:shadow-2xl'> <Link to={`/price/${food.cost}/${food.name}`}>OrderNow</Link></button></div>
 
     </div>
 
