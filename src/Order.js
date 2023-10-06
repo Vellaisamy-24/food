@@ -28,7 +28,7 @@ const Order = () => {
 
   return (
     <div className='flex justify-center'>
-    <div className="bg-backgroundColor  lg:w-[500px] p-[10px] md:p-[20px]  md:mt-[300px] border md:w-[300px]">
+    <div className="bg-backgroundColor  lg:w-[500px] p-[10px] md:p-[20px]  border md:w-[300px]">
       <div className="font-bold md:text-[40px] m-[10px] md:p-[15px] text-orange-400 text-center"> Bill Details</div>
       {orderPlaced ? (
         <div className="text-center border shadow-2xl">

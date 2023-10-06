@@ -21,7 +21,7 @@ const Price = () => {
       <div className='m-[15px] mt-[23px]' ><span className='lg:ml-[390px]   sm1:ml-[20px] lg:text-center text-[30px] font-exquisite font-semibold shadow-sm'>Cost:</span><span className='ml-[10px] text-orange-500 text-[22px]'>&#8377;{cost}</span></div>
       <div className='p-[20px]'>
       
-        <div className=' sm1:ml-[20px] lg:text-center mb-[50px]'>  <label className='text-[30px] font-exquisite font-semibold shadow-sm'>Enter the no of Items</label>
+        <div className=' sm1:ml-[20px] lg:text-center mb-[50px] lg:ml[390px]'>  <label className='text-[30px] font-exquisite font-semibold shadow-sm'>Enter the no of Items</label>
    <input className=' w-2/4 h-[50px] ml-[5px] rounded-[10px] border border-black shadow-2xl' placeholder='count...' type="number" onChange={(e)=>setQuantity(e.target.value)}/>
    </div>
       
