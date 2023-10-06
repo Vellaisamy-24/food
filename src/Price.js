@@ -17,7 +17,7 @@ const Price = () => {
   return (
     <>
     <div className='   w-screen pb-[20px] border border-black rounded-t-[36px] w-screen fixed bottom-0 left-0 right-0 bg-backgroundColor shadow-lg'>
-      <div className='m-[15px] ' ><span className='lg:ml-[390px]   sm1:ml-[20px] lg:text-center text-[30px] font-exquisite font-semibold shadow-sm'>Selected Item:</span><span className=' sm1:text-[18px]  ml-[15px] text-montserrat  lg:text-[22px] font-normal not-italic  text-green-600 md:text-[21px]'>{name}</span></div>
+      <div className='m-[15px] ' ><span className='lg:ml-[390px]   sm1:ml-[20px] lg:text-center text-[30px] font-exquisite font-semibold shadow-sm'>Selected Item:</span><span className=' sm1:text-[18px] sm:text-[30px] ml-[15px] text-montserrat  lg:text-[22px] font-normal not-italic  text-green-600 md:text-[21px]'>{name}</span></div>
       <div className='m-[15px] mt-[23px]' ><span className='lg:ml-[390px]   sm1:ml-[20px] lg:text-center text-[30px] font-exquisite font-semibold shadow-sm'>Cost:</span><span className='ml-[10px] text-orange-500 text-[22px]'>&#8377;{cost}</span></div>
       <div className='p-[20px]'>
       

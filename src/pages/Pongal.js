@@ -39,7 +39,7 @@ const Pongal = () => {
 
     ])
   return (
-    <><div className='fixed bg-red-200 text-center w-screen top-0 left-0 right-0 text-red-500 sm:text-[50px] '>Pongal</div>
+    <><div className='fixed bg-red-400 text-center text-[40px] font-bold font-exquisite text-white w-screen top-0 left-0 right-0 text-red-500 sm:text-[50px] '>Pongal</div>
     <div className='bg-backgroundColor w-screen gap-4 mt-[90px] sm:grid grid-cols-2  md:grid-cols-2  lg:grid-cols-3 lg:gap-8  2xl:grid-cols-4   '>
     {
       variety.map((food)=>
@@ -56,7 +56,7 @@ const Pongal = () => {
         </div>
         </div>
        
-          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px]'> <Link to={`/price/${food.cost}/${food.name}`}>OrderNow</Link></button></div>
+          <div className=' ml-[10px] sm2:mt-[5px] sm2:font-semibold text-[25px] font-ibm-plex-sans text-red-500 lg:-mt-[25px] lg:mb-[10px]'><button className='tracking-[0.2px] border-[3px] border-red-100 rounded-[15px] sm2:p-[5px] sm1:mt-[5px] sm1:mb-[15px] hover:text-white hover:bg-red-500 transition-transform transform hover:scale-105 hover:shadow-2xl'> <Link to={`/price/${food.cost}/${food.name}`}>OrderNow</Link></button></div>
 
     </div>
 

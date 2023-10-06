@@ -29,7 +29,7 @@ const Login = () => {
 
   return (
     <>
-      <div className=' bg-blue-200 sm1:text-[20px] sm:text-[30px] 2xl:p-[15px] 2xl:w-[600px] h-auto mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px]'>
+      <div className=' bg-blue-400 sm1:text-[20px] sm:text-[30px] 2xl:p-[15px] 2xl:w-[600px] h-auto mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px]'>
         <h1 className='lg:text-[50px] text-[30px] text-center font-semibold font-ibm-plex-sans'>Login</h1>
         <form onSubmit={handleSubmit} method='post'>
           <div className='my-[15px]'>
@@ -61,8 +61,8 @@ const Login = () => {
             </div>
           </div>
           <div className='my-[15px] text-center'>
-            <button className=' text-orange-500  hover:text-white hover:bg-green-500 2xl:w-[150px] text-[20px] text-center border border-black border-[2px] p-[10px] mt-[5px] shadow-md rounded-[6px]' type='submit'>
-              Login
+            <button className=' text-blue-100 font-bold not-italic  hover:text-white hover:bg-green-500 2xl:w-[150px] text-[20px] text-center border border-black border-[2px] p-[10px] mt-[5px] shadow-md rounded-[6px] text-[20px] transition-transform transform hover:scale-105 hover:shadow-lg' type='submit'>
+            Submit
             </button>
           </div>
         </form>

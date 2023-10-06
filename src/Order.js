@@ -17,6 +17,7 @@ const Order = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.address && formData.mobile) {
+        alert("Thanks for Ordering")
       setTimeout(() => {
         setOrderPlaced(true);
       }, 500);
@@ -38,7 +39,7 @@ const Order = () => {
         <form onSubmit={handleSubmit}>
           <div className="m-[10px]">
             <span className="font-bold font-montserrat md:text-[20px]">Food Name:</span>
-            <span className="ml-[5px]">{name}</span>
+            <span className="ml-[5px] ">{name}</span>
           </div>
           <div className="m-[10px]">
             <span className="font-bold font-montserrat md:text-[20px]">Food Cost:</span>
