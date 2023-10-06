@@ -26,7 +26,8 @@ const Order = () => {
   };
 
   return (
-    <div className="bg-backgroundColor lg:w-[500px] p-[10px] md:p-[20px] m md:ml-[900px] md:mt-[300px] border md:w-[300px]">
+    <div className='flex justify-center'>
+    <div className="bg-backgroundColor  lg:w-[500px] p-[10px] md:p-[20px]  md:mt-[300px] border md:w-[300px]">
       <div className="font-bold md:text-[40px] m-[10px] md:p-[15px] text-orange-400 text-center"> Bill Details</div>
       {orderPlaced ? (
         <div className="text-center border shadow-2xl">
@@ -43,13 +44,10 @@ const Order = () => {
             <span className="font-bold font-montserrat md:text-[20px]">Food Cost:</span>
             <span>{cost}</span>
           </div>
-          <div className="m-[10px]">
-            <span className="font-bold font-montserrat md:text-[20px]">Quantity:</span>
-            <span>{quantity}</span>
+          <div className="m-[10px]"> <span className="font-bold font-montserrat md:text-[20px]">Quantity:</span>  <span>{quantity}</span>
           </div>
-          <div className="m-[10px]">
-            <span className="font-bold font-montserrat md:text-[20px]">User:</span>
-            <span>{userName}</span>
+          <div className="m-[10px]"><span className="font-bold font-montserrat md:text-[20px]">User:</span>  <span>{userName}</span>
+          
           </div>
           <div className="m-[10px]">
             <span className="font-bold font-montserrat md:text-[20px]">TotalPrice:</span>
@@ -79,6 +77,7 @@ const Order = () => {
           {error && <p className="text-red-600 mt-3">{error}</p>}
         </form>
       )}
+    </div>
     </div>
   );
 };
