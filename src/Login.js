@@ -37,27 +37,27 @@ const Login = () => {
               <label className='lg:text-[30px] text-[20px] font-montserrat'>Full Name</label>
             </div>
             <div>
-              <input className='lg:h-[40px]  text-red-800 rounded-[5px]' name='fullName' type='text' required    placeholder='fullname..'  onChange={handleChange}  />
+              <input className='lg:h-[40px]  text-red-800 rounded-[5px] placeholder-text-sm' name='fullName' type='text' required    placeholder='fullname..'  onChange={handleChange}  />
             </div>
           </div>
           <div className='my-[15px]'>
             <div className='my-[10px]'>
-              <label className='lg:text-[30px] font-montserrat text-[20px]'>Email</label>
+              <label className='lg:text-[30px]  font-montserrat text-[20px] '>Email</label>
             </div>
             <div>
               <input
-                className='lg:h-[40px] text-red-800 rounded-[5px]' type='email'    name='email' required    placeholder='email..'    onChange={handleChange}
+                className='lg:h-[40px] text-red-800 rounded-[5px] placeholder-text-sm ' type='email'     name='email' required    placeholder='email..'    onChange={handleChange}
         
               />
             </div>
           </div>
           <div className='my-[15px]'>
             <div className='my-[10px]'>
-              <label className='lg:text-[30px]  font-montserrat text-[20px]'>Password</label>
+              <label className='lg:text-[30px]  font-montserrat text-[20px] '>Password</label>
             </div>
             <div>
               <input
-                className='lg:h-[40px] rounded-[5px] text-red-900'  type='password'  name='password'  required  placeholder='password..' onChange={handleChange}  />
+                className='lg:h-[40px] rounded-[5px] text-red-900 placeholder-text-[5px] placeholder-text-sm'   type='password'  name='password'   required  placeholder='password..' onChange={handleChange}  />
             </div>
           </div>
           <div className='my-[15px] text-center'>

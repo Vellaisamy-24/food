@@ -55,18 +55,18 @@ const Order = () => {
             <span>{totalprice}</span>
           </div>
           <div className="m-[10px]">
-            <span className="font-bold font-montserrat md:text-[20px]">Address</span>
+            <span className="font-bold font-montserrat md:text-[20px]">Address:</span>
             <span>
               <input
-                type="text"  name="address" required
+                type="text" className='ml-[10px]'  name="address" required
                 placeholder="Enter the address to be delivered" onChange={handleChange}
               />
             </span>
           </div>
           <div className="m-[10px]">
-            <span className="font-bold font-montserrat md:text-[20px]">Mobile.No</span>
+            <span className="font-bold font-montserrat md:text-[20px]">Mobile.No:</span>
             <span>
-              <input type="number" name="mobile"  required placeholder="Enter your mobile number"  onChange={handleChange}   />
+              <input className='ml-[10px]' type="number" name="mobile"  required placeholder="Enter your mobile number"  onChange={handleChange}   />
                 
             </span>
           </div>
