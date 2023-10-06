@@ -29,7 +29,7 @@ const Login = () => {
 
   return (
     <>
-      <div className=' bg-blue-400 sm1:text-[20px] sm:text-[30px] 2xl:p-[15px] 2xl:w-[600px] h-auto mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px]'>
+      <div className=' bg-blue-400 sm1:text-[20px] sm:text-[30px] 2xl:p-[15px] 2xl:w-[500px] h-auto mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px]'>
         <h1 className='lg:text-[50px] text-[30px] text-center font-semibold font-ibm-plex-sans'>Login</h1>
         <form onSubmit={handleSubmit} method='post'>
           <div className='my-[15px]'>
