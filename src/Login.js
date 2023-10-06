@@ -6,6 +6,7 @@ import { LoginContext } from './App'
 
 const Login = () => {
     const {setUserName,setUserMail,setUserPassword}=useContext(LoginContext)
+    const [showComponent,setShowComponent]=useState(false)
     function handleSubmit(e)
 
     {
@@ -15,9 +16,9 @@ const Login = () => {
 
   return (
     <>
-    <div className=' 2xl:p-[15px] 2xl:mt-[200px] 2xl:w-[600px] sm:mt-[150px] h-auto  mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px] '>
+    <div className=' 2xl:p-[15px]  2xl:w-[600px]  h-auto  mx-auto my-auto mt-[100px] border border-black border-[1px] shadow-lg p-[10px] w-[300px] '>
         <h1 className=' lg:text-[50px] text-[30px] text-center font-semibold font-ibm-plex-sans'>Login</h1>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} method="post">
     <div className='my-[15px] '>
         <div className=' my-[10px] lg:mb-[15px]'> <label className='  lg:text-[30px]  text-[20px] font-montserrat '>Full Name</label></div>
        <div><input  className=" lg:h-[40px] rounded-[5px]" type="text" required placeholder="Full Name" onChange={(e)=>setUserName(e.target.value)}/></div>
