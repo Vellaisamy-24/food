@@ -34,8 +34,8 @@ module.exports = {
         nav1:"#3498db",
         textcolor:"#333",
         text:"#dcdcdc",
-        bg1:" #f5f5f5",
-        bg2:"#333333",
+        bg1:" #01bcd5",
+        bg2:"#8ecae6",
 
        
         
