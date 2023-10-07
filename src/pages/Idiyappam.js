@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import idiyapam from "../images/idiyapam.jpeg"
-
 import parupuidi from "../images/paru_idiyapam.jpeg"
 import eggidi from "../images/eggkothu_idiyapam.jpeg"
 import tomatoidi from "../images/tomato_idiyapam.jpeg"

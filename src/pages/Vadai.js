@@ -4,8 +4,6 @@ import medu from "../images/medu_vada.jpeg"
 import kera from "../images/kera_vada.jpeg"
 import parupu from "../images/parupu_vada.jpeg"
 import sabudana from "../images/sabudana_vada.jpeg"
-
-
 import {Link} from "react-router-dom"
 
 const Vada = () => {

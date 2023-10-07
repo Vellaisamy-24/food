@@ -8,8 +8,6 @@ import ceylon from "../images/ceylon_parota.jpeg"
 import bun from "../images/Bun_parota.jpeg"
 import chilli from "../images/chilli_parota.jpeg"
 import poricha from "../images/poricha_parota.jpeg"
-
-
 import {Link} from "react-router-dom"
 
 const Parotta = () => {

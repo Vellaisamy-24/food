@@ -8,7 +8,6 @@ import mini from "../images/mini_idly.jpeg"
 import multigrain from "../images/multigrain_idly.jpeg"
 import oats from "../images/oats_idly.jpeg"
 import vegetable from "../images/vegetable_idly.jpeg"
-
 import {Link} from "react-router-dom"
 
 const Idly = () => {
